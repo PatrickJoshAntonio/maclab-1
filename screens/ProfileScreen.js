@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     borderRadius: 75,
-    marginBottom: 10,
+    marginBottom: 70,
   },
   imagePickerButton: {
     marginBottom: 10,

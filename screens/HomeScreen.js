@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import { auth } from '../config/firebase'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 export default function HomeScreen() {
 
@@ -38,7 +39,7 @@ export default function HomeScreen() {
           <Button
             title={'Tap to Scan'}
             onPress={() => setScanned(false)}
-            color="#841584"
+            color="#ffa500"
           />
         </View>
       )}
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     position: 'absolute',
-    bottom: 30,
+    bottom: 70,
     alignSelf: 'center',
   },
 });
