@@ -67,7 +67,7 @@ export default function LoginScreen() {
             onPress={() => {
               setIsSecureEntry(prev => !prev);
             }}
-            style={{ position: 'absolute', right: 20, top: 144}} >
+            style={{ position: 'absolute', right: 20, top: 160}} >
             <Text>{isSecureEntry ? "Show" : "Hide"}</Text>
           </TouchableOpacity>
 

@@ -87,7 +87,7 @@ export default function SignUpScreen() {
                         onPress={() => {
                             setIsSecureEntry((prev) => !prev);
                         }}
-                        style={{ position: 'absolute', right: 20, top: 230 }} 
+                        style={{ position: 'absolute', right: 20, top: 260 }} 
                     >
                         <Text>{isSecureEntry ? "Show" : "Hide"}</Text>
                     </TouchableOpacity>
@@ -103,7 +103,7 @@ export default function SignUpScreen() {
                         onPress={() => {
                             setIsSecureEntry((prev) => !prev);
                         }}
-                        style={{ position: 'absolute', right: 20, top: 327}} 
+                        style={{ position: 'absolute', right: 20, top: 370}} 
                     >
                         <Text>{isSecureEntry ? "Show" : "Hide"}</Text>
                     </TouchableOpacity>
